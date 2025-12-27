@@ -1,0 +1,7 @@
+# Task 2: Image Extraction & OCR - Dependencies
+# Lightweight and efficient for Ryzen 5 laptop
+
+PyMuPDF>=1.24.0           # PDF processing and image extraction
+Pillow>=10.0.0            # Image processing and format conversion
+paddlepaddle>=2.5.0       # PaddlePaddle deep learning framework (CPU version)
+paddleocr>=2.7.0          # PaddleOCR for text extraction

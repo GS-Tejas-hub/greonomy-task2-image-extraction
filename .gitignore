@@ -1,0 +1,62 @@
+# ===========================================
+# GREONOMY TASK 2 - Git Ignore
+# ===========================================
+
+# ===== Exclude Other Tasks =====
+Task 1/
+Task 3/
+
+# ===== Exclude PDFs (large files) =====
+pdfs/
+*.pdf
+
+# ===== Exclude Output Files =====
+images (*/
+charts (*/
+metadata (*).json
+metadata_with_ocr (*).json
+charts_metadata (*).json
+all_images_metadata.json
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ===== Virtual Environment =====
+venv/
+ENV/
+env/
+.venv/
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Logs =====
+*.log
